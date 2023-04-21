@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <test thread-count="5" name="Open_MRS(failed)">
+    <classes>
+      <class name="com.selenium.tests.TC_001_SystemTest">
+        <methods>
+          <include name="Login_app"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="checkstatus"/>
+        </methods>
+      </class> <!-- com.selenium.tests.TC_001_SystemTest -->
+    </classes>
+  </test> <!-- Open_MRS(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
